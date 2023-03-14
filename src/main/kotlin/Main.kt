@@ -4,7 +4,7 @@ fun main() {
     var scoreUsr = 0
     var scoreBot = 0
     val values = arrayOf("К", "Н", "Б")
-    println("")
+
     while (true) {
         println("Ну, выбирайте: Камень - К, Ножницы - Н, Бумага - Б. Чтобы выйти, введите -")
         val choice = readln()
